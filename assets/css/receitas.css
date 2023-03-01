@@ -4,3 +4,11 @@
     flex-wrap: wrap;
     padding: 5rem 0 0 5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .receitas{ 
+        flex-direction: column;
+        padding: 4%;
+        width: 100%;
+    }
+}
